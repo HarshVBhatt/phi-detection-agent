@@ -19,6 +19,9 @@ This project exemplifies a **graph-based agentic flow** for document analysis:
 
 The PHI Detector is structured as a **stateful agentic graph**:
 
+![graph](https://github.com/user-attachments/assets/2245fca3-8d4d-4fd3-80a3-0dfd7f01d9ca)
+
+
 | Node (Agent)        | Role                                                                 |
 |---------------------|----------------------------------------------------------------------|
 | Input Router        | Directs the file to the correct parser node based on file extension  |
@@ -40,8 +43,7 @@ The PHI Detector is structured as a **stateful agentic graph**:
 - Tesseract OCR (for image processing)
 
 ### Installation
-    ```bash
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ### Running the graph
 Simply run all cells
